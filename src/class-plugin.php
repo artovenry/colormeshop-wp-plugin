@@ -22,7 +22,7 @@ class Plugin {
 	 *
 	 * @var \Pimple\Container
 	 */
-	private $container;
+	protected $container;
 
 	/**
 	 * Plugin constructor.

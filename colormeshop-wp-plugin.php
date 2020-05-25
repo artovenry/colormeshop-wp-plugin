@@ -15,8 +15,8 @@ if ( version_compare( PHP_VERSION, '5.6', '<' ) ) {
 
 require_once( 'vendor/autoload.php' );
 
-$p = new \ColorMeShop\Plugin;
-$p->register();
+// $p = new \ColorMeShop\Plugin;
+// $p->register();
 
 /**
  * 動作条件に満たない場合のエラーメッセージを出力する
